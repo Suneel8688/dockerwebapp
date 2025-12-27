@@ -9,6 +9,6 @@ services:
  application:
    image: suneeldevops8688/mynewapp:appimage
    ports:
-     - "3333:8080"
+     - "5555:8080"
    depends_on:
      - "devopsdb"
